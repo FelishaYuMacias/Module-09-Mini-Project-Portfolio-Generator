@@ -1,0 +1,24 @@
+:root {
+    --main: whitesmoke;
+    --accent: olive;
+    --highlight: darkkhaki;
+    --text: darkolivegreen;
+
+}
+
+body {
+    background: var(--main);
+    color: var(--text)
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+ text-align: end;   
+}
